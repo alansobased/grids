@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 45% 35% 10%;
+    gap: 10px;
+}
+
+.header {
+    grid-row: 1;
+    grid-column: span 6;
+    background-color: green;
+}
+
+.rosa {
+    border-radius: 6px;
+    background-color: deeppink;
+    grid-column: span 2;
+}
+
+.roxo {
+    border-radius: 6px;
+    background-color: #be2ed6;
+}
+
+.footer {
+    grid-row: 4;
+    grid-column: span 6;
+    background-color: orange;
+}

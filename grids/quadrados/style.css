@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+
+.quadrado {
+    border-radius: 6px;
+}
+
+#vermelho {
+    background-color: #F47174;
+}
+
+#azul {
+    background-color: #6488EA;
+}
+
+#verde {
+    background-color: #6FC276;
+}
+
+#amarelo {
+    background-color: #EEEE9B;
+}
